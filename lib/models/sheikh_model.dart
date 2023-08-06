@@ -1,7 +1,7 @@
 
 class SheikhModel {
-  String sheikhUrl;
-  String suwraName;
+ final String sheikhUrl;
+final  String suwraName;
 
   SheikhModel({required this.sheikhUrl ,required this.suwraName});
 }

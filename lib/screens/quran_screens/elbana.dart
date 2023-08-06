@@ -4,9 +4,9 @@ import 'package:new_app_qran/components/custom_sheikh_screen.dart';
 import 'package:new_app_qran/models/sheikh_model.dart';
 
 class Elbana extends StatelessWidget {
-   Elbana({Key? key}) : super(key: key);
-  static String id = 'Elbana';
-   List<SheikhModel> mahmoud3lyElbanaList = [
+    Elbana({Key? key}) : super(key: key);
+   static final String id = 'Elbana';
+  final List<SheikhModel> mahmoud3lyElbanaList = [
      SheikhModel(
          sheikhUrl: "https://server8.mp3quran.net/bna/001.mp3",
          suwraName: "الفاتحة"),
